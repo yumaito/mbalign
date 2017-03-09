@@ -2,7 +2,7 @@
 
 mbalign aligns the string including multibyte character.
 
-Example
+## Example
 
 ```golang
 import (
