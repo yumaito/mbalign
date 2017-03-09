@@ -7,7 +7,7 @@ mbalign aligns the string including multibyte character.
 ```golang
 import (
     "fmt"
-    "github.com/mbalign"
+    "github.com/yumaito/mbalign"
 )
 
 func main() {
