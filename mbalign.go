@@ -43,3 +43,17 @@ func Align(input string, length int, padchar byte, align uint) string {
 	}
 	return result
 }
+
+func GetWidth(input string) int {
+	width := 0
+	for _, runeValue := range input {
+		byteNum := len([]byte(string(runeValue)))
+		if byteNum > 1 {
+			width += 2
+		} else {
+			width += 1
+		}
+	}
+
+	return width
+}

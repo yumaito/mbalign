@@ -66,3 +66,20 @@ func TestAlignRight(t *testing.T) {
 		t.Error(onlyFullLong)
 	}
 }
+
+func TestGetWidth(t *testing.T) {
+	result := GetWidth("hoge")
+	if result != 4 {
+		t.Error(result)
+	}
+
+	result = GetWidth("あいう")
+	if result != 6 {
+		t.Error(result)
+	}
+
+	result = GetWidth("あいうabc")
+	if result != 9 {
+		t.Error(result)
+	}
+}
