@@ -21,5 +21,7 @@ func main() {
 
     alignStr := mbalign.Align(str, 9, '.', mbalign.LeftAlign)
     fmt.Println(alignStr) // あいうえ.
+
+    width := mbalign.GetWidth("あいうえお") // 10
 }
 ```
