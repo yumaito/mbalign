@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yumaito/mbalign.svg?branch=master)](https://travis-ci.org/yumaito/mbalign)
+
 # mbalign
 
 mbalign aligns the string including multibyte character.
