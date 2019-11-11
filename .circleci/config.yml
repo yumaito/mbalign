@@ -5,4 +5,4 @@ jobs:
       - image: circleci/golang:1.11.4
     steps:
       - checkout
-      - run: echo "A first hello"
+      - run: echo "hello circle ci"
